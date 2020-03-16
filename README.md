@@ -4,7 +4,7 @@ The system is intended to help the organisers to organise a treasure hunt games 
 
 ## :card_file_box:Table of Contents
 * [System Functions](#pushpinsystem-functions)
-* [Contact](#contact)
+* [Contact](#telephone_receivercontact)
 
 
 ## :pushpin:System Functions
@@ -17,5 +17,5 @@ This web application is expected to have the following functions:
 * Player team can receive notification from organisers and send information to ask questions to organisers. [optional feature]
 * Player team can make payment for registration and receive receipt of the payment. [optional feature]
 
-## Contact
+## :telephone_receiver:Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me
