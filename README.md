@@ -1,15 +1,14 @@
 # :world_map:Online Treasure Hunt Registration Application
----
 This assignment for my Web Programming course is **To design a Web Application for Treasure Hunt events**.  
 The system is intended to help the organisers to organise a treasure hunt games and help the players to register a new game. The organisers can create new treasure hunt game, view the list of player teams and notify the player teams for treasure hunt game information. The player team can register a game and receive notification from organisers.
 
 ## :card_file_box:Table of Contents
-* [System Functions](#system-functions)
+* [System Functions](#pushpinsystem-functions)
 * [Contact](#contact)
 
 
-## System Functions
-:pushpin:This web application is expected to have the following functions:
+## :pushpin:System Functions
+This web application is expected to have the following functions:
 * Register new user account (either organizer or player) and login to access the system.
 * Manage user profile (view, update user details, delete a user account)
 * Manage new treasure hunt games by organisers (add, edit, delete a game) & view list of games
