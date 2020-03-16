@@ -4,10 +4,10 @@ The system is intended to help the organisers to organise a treasure hunt games 
 
 ## :card_file_box:Table of Contents
 * [System Functions](#system-functions)
-* [Contact](#:telephone_receiver:contact)
+* [Contact](#contact)
 
 
-## :pushpin:System Functions
+## :pushpin: System Functions
 * Register new user account (either organizer or player) and login to access the system.
 * Manage user profile (view, update user details, delete a user account)
 * Manage new treasure hunt games by organisers (add, edit, delete a game) & view list of games
@@ -16,5 +16,5 @@ The system is intended to help the organisers to organise a treasure hunt games 
 * Player team can receive notification from organisers and send information to ask questions to organisers. [optional feature]
 * Player team can make payment for registration and receive receipt of the payment. [optional feature]
 
-## :telephone_receiver:Contact
+## :telephone_receiver: Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me
