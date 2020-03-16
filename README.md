@@ -3,7 +3,7 @@ This is assignment for my Web Programming course is **To design a Web Applicatio
 The system is intended to help the organisers to organise a treasure hunt games and help the players to register a new game. The organisers can create new treasure hunt game, view the list of player teams and notify the player teams for treasure hunt game information. The player team can register a game and receive notification from organisers.
 
 ## :card_file_box:Table of Contents
-* [Project Requirements](#project-requirements)
+* [System Functions](#system-functions)
 * [Contact](#contact)
 
 
