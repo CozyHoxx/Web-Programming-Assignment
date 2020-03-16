@@ -5,8 +5,8 @@ This is an assignment given to me for my Web Programming Course.
 * [Project Requirements](#project-requirements)
 * [Contact](#contact)
 
-:pushpin:
-## Project Requirements
+
+## :pushpin:Project Requirements
 
 
 ## Contact
