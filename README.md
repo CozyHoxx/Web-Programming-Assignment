@@ -19,3 +19,7 @@ This web application is expected to have the following functions:
 
 ## :telephone_receiver:Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me
+
+## Contributing
+* Please refer to [CONTRIBUTE.md](./CONTRIBUTE.md) for details.
+
