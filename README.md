@@ -5,6 +5,7 @@ The system is intended to help the organisers to organise a treasure hunt games 
 ## :card_file_box:Table of Contents
 * [System Functions](#pushpinsystem-functions)
 * [Contact](#telephone_receivercontact)
+* [Contributing](#writing_handContributing)
 
 
 ## :pushpin:System Functions
@@ -20,6 +21,6 @@ This web application is expected to have the following functions:
 ## :telephone_receiver:Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me
 
-## Contributing
+## :writing_hand:Contributing
 * Please refer to [CONTRIBUTE.md](./CONTRIBUTE.md) for details.
 
