@@ -20,7 +20,7 @@ This web application is expected to have the following functions:
 
 ## :telephone_receiver:Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me     
-GP send his regards.
+GP send his regards.s
 
 ## :writing_hand:Contributing
 * Please refer to [CONTRIBUTE.md](./CONTRIBUTE.md) for details.
