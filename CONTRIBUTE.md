@@ -1,4 +1,5 @@
 # Contributing
+If you are my team members, please contact me for access to this repository.  
 [Get git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) on your machine if you haven't.
 
 ## Fork the repository
