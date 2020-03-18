@@ -18,8 +18,7 @@ This web application is expected to have the following functions:
 * Player team can make payment for registration and receive receipt of the payment. [optional feature]
 
 ## :telephone_receiver:Contact
-Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me     
-GP send his regards.s
+Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me  
 
 ## :writing_hand:Contributing
 * Please refer to [CONTRIBUTE.md](./CONTRIBUTE.md) for details.
