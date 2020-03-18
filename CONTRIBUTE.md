@@ -1,4 +1,5 @@
 # Contributing
+[Get git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) on your machine if you have'nt.
 
 ## Fork the repository
 Fork the repository by clicking on the fork button on the top of this page. (This will create a copy of the repository in your account)

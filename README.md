@@ -7,7 +7,6 @@ The system is intended to help the organisers to organise a treasure hunt games 
 * [Contact](#telephone_receivercontact)
 * [Contributing](#writing_handContributing)
 
-
 ## :pushpin:System Functions
 This web application is expected to have the following functions:
 * Register new user account (either organizer or player) and login to access the system.
