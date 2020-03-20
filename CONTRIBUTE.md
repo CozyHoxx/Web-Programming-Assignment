@@ -1,6 +1,7 @@
 # Contributing
 If you are my team members, please contact me for access to this repository.  
-[Get git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) on your machine if you haven't.
+[Get git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) on your machine if you haven't.  
+[Learn how to use Git](https://www.notion.so/Introduction-to-Git-ac396a0697704709a12b6a0e545db049).
 
 ## Fork the repository
 Fork the repository by clicking on the fork button on the top of this page. (This will create a copy of the repository in your account)
