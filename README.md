@@ -1,13 +1,14 @@
-# :world_map:Online Treasure Hunt Registration Application
+# :world_map: Online Treasure Hunt Registration Application
 This assignment for my Web Programming course is **To design a Web Application for Treasure Hunt events**.  
 The system is intended to help the organisers to organise a treasure hunt games and help the players to register a new game. The organisers can create new treasure hunt game, view the list of player teams and notify the player teams for treasure hunt game information. The player team can register a game and receive notification from organisers.
 
-## :card_file_box:Table of Contents
-* [System Functions](#pushpinsystem-functions)
-* [Contact](#telephone_receivercontact)
-* [Contributing](#writing_handContributing)
+## :card_file_box: Table of Contents
+* [System Functions](#pushpin-System-Functions)
+* [Contact](#telephone_receiver-Contact)
+* [Contributing](#writing_hand-Contributing)
+* [License](#scroll-License)
 
-## :pushpin:System Functions
+## :pushpin: System Functions
 This web application is expected to have the following functions:
 * Register new user account (either organizer or player) and login to access the system.
 * Manage user profile (view, update user details, delete a user account)
@@ -17,9 +18,12 @@ This web application is expected to have the following functions:
 * Player team can receive notification from organisers and send information to ask questions to organisers. [optional feature]
 * Player team can make payment for registration and receive receipt of the payment. [optional feature]
 
-## :telephone_receiver:Contact
+## :telephone_receiver: Contact
 Created by [@CozyHoxx](https://github.com/CozyHoxx) - feel free to contact me  
 
-## :writing_hand:Contributing
+## :writing_hand: Contributing
 * Please refer to [CONTRIBUTE.md](./CONTRIBUTE.md) for details.
+
+## :scroll:	License
+
 
