@@ -111,6 +111,7 @@ input[type="submit"]:hover {
 }
 
 .signup_link a {
+    background: none;
     color: #2691d9;
     text-decoration: none;
 }
