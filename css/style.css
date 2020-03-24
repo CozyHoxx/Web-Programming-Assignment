@@ -140,4 +140,5 @@ section:nth-child(odd) {
 section {
     line-height: 2rem;
     height: 250px;
+    padding: 20px;
 }
