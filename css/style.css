@@ -132,13 +132,3 @@ h1 {
     margin: 1em 0;
     padding-left: 0 10;
 }
-
-section:nth-child(odd) {
-    background-color: #ececec;
-}
-
-section {
-    line-height: 2rem;
-    height: 250px;
-    padding: 20px;
-}
