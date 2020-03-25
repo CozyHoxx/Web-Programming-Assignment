@@ -81,6 +81,11 @@ form .txt_field {
     cursor: pointer;
 }
 
+.pass a {
+    background: none;
+    color: #a6a6a6;
+}
+
 .pass:hover {
     text-decoration: underline;
 }
