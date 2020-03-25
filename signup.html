@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet " href="css/style.css " />
+    <link rel="stylesheet " href="css/signup.css " />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">[WEBSITE LOGO]</label>
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="event.html">EVENTS</a>
+            </li>
+            <li>
+                <a href="ourTeam.html">Our Team</a>
+            </li>
+            <li>
+                <a class="active" href="login.html">LOGIN</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Organizer</h1>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Repeat Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Participant</h1>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Repeat Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Not an organizer?</h1>
+                    <p>Sign up as a participant to join events!</p>
+                    <button class="ghost" id="participant-signup">Sign Up</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Not a participant?</h1>
+                    <p>Sign up as an organizer to host your own events!</p>
+                    <button class="ghost" id="organizer-signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
