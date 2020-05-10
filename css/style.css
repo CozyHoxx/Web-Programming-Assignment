@@ -88,6 +88,7 @@ a:hover {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 50;
     }
     nav ul li {
         display: block;
@@ -110,7 +111,8 @@ a:hover {
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(120deg, #7437E6, #844ee9);
+    /* background-image: linear-gradient(120deg, #7437E6, #844ee9); */
+    background-image: linear-gradient(120deg, #FFA62B, #FF964F);
     background-size: 400% 400%;
     -webkit-animation: gradientBG 10s ease infinite;
     animation: gradientBG 8s ease infinite;
