@@ -6,3 +6,5 @@ To contribute, please add your name to the list when you submit a patch to the p
     - Student majoring in Software Engineering, [Universiti Malaya](https://www.um.edu.my/). Group leader
 * [Guan Po](https://github.com/blazerpro1)
     - Student majoring in Software Engineering, [Universiti Malaya](https://www.um.edu.my/). Group member
+* [Kelvin Lai](https://github.com/kelvinvinvin)
+    - Student majoring in Software Engineering, [Universiti Malaya](https://www.um.edu.my/). Group member
