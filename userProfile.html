@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet " href="css/baseCSS.css " />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <style type="text/css">
+        .panel-default {
+            height: 640px;
+            margin: 0 auto;
+        }
+        
+        #myButton1 {
+            background-color: aquamarine;
+        }
+        
+        #myButton2 {
+            background-color: burlywood;
+        }
+        
+        .btn btn-lg {
+            border: none;
+        }
+    </style>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars">
+
+            </i>
+        </label>
+        <label class="logo">[WEBSITE LOGO]</label>
+        <ul>
+            <li>
+                <a class="active" href="UserProfile.html">My Information</a>
+            </li>
+            <li>
+                <a href="editProfile.html">Accounting Setting</a>
+            </li>
+            <li>
+                <a href="logout.html">LOGOUT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>User Profile</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                        <img alt="User Pic" src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" id="profile-image1" class="img-circle img-responsive">
+
+
+                    </div>
+                    <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8">
+                        <div class="container">
+                            <h2 id="userName"><img src="imgs/userName.png" width="40px">&nbsp;John Smith
+                            </h2>
+                        </div>
+
+                        <hr>
+
+                        <ul class="container details">
+                            <li>
+                                <p id="email"><img src="imgs/userEmail.png" width="19px">&nbsp;User E-Mail
+                                </p>
+                            </li>
+                            <br>
+                            <li>
+                                <p id="gender"><img src="imgs/gender.png" width="19px">&nbsp;Your Gender
+                                </p>
+                            </li>
+                            <br>
+                            <li>
+                                <p id="position"><img src="imgs/position.png" width="19px">&nbsp;Your Position
+                                </p>
+                            </li>
+                            <br>
+
+                        </ul>
+
+                        <hr>
+
+                        <div class="col-sm-5 col-xs-6 tital ">
+                            <p><img src="imgs/looking.png" width="19px">&nbsp;&nbsp;You are looking at your personal Profile</p>
+                            <div class="profileOption">
+                                <br><br><br><br>
+                                <a href="editProfile.html"><input type="button" class="btn btn-lg" value="Setting" id="myButton1"></a>&nbsp;
+                                <input type="button" id="myButton2" value="Delete" onclick="delConfirm()" class="btn btn-lg">&nbsp;
+                                <script language="javascript">
+                                    function delConfirm() {
+                                        if (!confirm("Are you sure you want to delete your account？")) {
+                                            window.event.returnValue = false;
+                                        }
+                                    }
+                                </script>
+                                <a href="UserProfile.html"><input id="myButton3" type="button" class="btn btn-lg" value="Reset"></a>
+                                <!--                            <button><a class="glyphicon glyphicon-ok-sign" href="editProfile.php"></a>Setting</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                                <!--                            <button class="btn btn-lg" type="button"><a class="glyphicon glyphicon-repeat" href="UserProfile.php"></a> Reset</button>-->
+                                <!--                            <button type="submit" onClick="delConfirm()"/>delete</button>-->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
