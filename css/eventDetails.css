@@ -1,5 +1,6 @@
 .header {
     margin: 10px 0;
+    min-height: 70px;
     /* border: 1px solid red; */
 }
 
@@ -38,18 +39,65 @@ form {
     display: table;
 }
 
-{}
-
 .event-container {
     padding: 20px;
     margin: 0.25rem 0;
     background-color: white;
     border: 3px solid grey;
     border-radius: 20px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+}
+
+.event-name {
+    margin-bottom: 10px;
+}
+
+.event-details {
+    margin-bottom: 1rem;
+}
+
+.event-details tr :nth-child(1) {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.event-team {
+    width: 60%;
+    /* border: 3px solid red; */
+}
+
+.event-team h3 {
+    margin-bottom: 0.7rem;
+}
+
+.team-name p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    background-color: lightgray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.teams .team-name {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 15%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: seashell;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.22);
+}
+
+.event-team h4 {
+    margin-bottom: 0.5rem;
 }
 
 .event-description {
     position: relative;
+    margin-bottom: 1rem;
     /* border: 3px solid red; */
 }
