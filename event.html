@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Event</title>
+    <title>Manage Your Events</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet " href="css/style.css " />
-    <link rel="stylesheet " href="css/event.css " />
-
+    <link rel="stylesheet" href="css/baseCSS.css">
+    <link rel="stylesheet" href="css/event.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -21,118 +20,85 @@
         <label class="logo">[WEBSITE LOGO]</label>
         <ul>
             <li>
-                <a href="homepage.html">HOME</a>
+                <a href="index.html">HOME</a>
             </li>
             <li>
-                <a href="#">NOTIFICATION</a>
+                <a href="about.html">ABOUT</a>
             </li>
             <li>
-                <a href="event.html">EVENTS</a>
-            </li>
-            <li>
-                <a href="rules.html">rules</a>
+                <a class="active" href="event.html">EVENTS</a>
             </li>
             <li>
                 <a href="ourTeam.html">Our Team</a>
             </li>
             <li>
-                <a href="#">PROFILE</a>
+                <a href="login.html">LOGIN</a>
             </li>
-            <li>
-                <a class="active" href="#">LOGOUT</a>
-            </li>
-            <li>
-                <a class="active" href="login.html">LOG IN</a>
-            </li>
+
         </ul>
     </nav>
     <main>
-        <div class="header">
-            <h1>
-                this is the event page
-            </h1>
-            <form action="">
-                <input type="text" placeholder="Search for events...">
-            </form>
-
+        <div class="container" id="list">
+            <h3>Upcoming games</h3>
+            <p>Click the name of the game for more information.</p>
+            <table>
+                <tr>
+                    <td id="Name"><a href="#">Game1</a></td>
+                    <td><a href="#edit" title="Game1" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td id="Name"><a href="#">Game2</a></td>
+                    <td><a href="#edit" title="Game2" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td id="Name"><a href="#">Game3</a></td>
+                    <td><a href="#edit" title="Game3" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td id="Name"><a href="#">Game4</a></td>
+                    <td><a href="#edit" title="Game4" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td id="Name"><a href="#">Game5</a></td>
+                    <td><a href="#edit" title="Game5" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td id="Name"><a href="#">Game6</a></td>
+                    <td><a href="#edit" title="Game6" onclick="update(this.title);">Edit</a></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+            </table>
         </div>
-        <section>
-            <div class="event-container">
-                <div class="event-name">
-                    <h2>
-                        Event Name
-                    </h2>
+        <div class="container" id="create">
+            <h4>Add a New Game</h4>
+            <p>Didn't find your game? Create one!</p>
+            <form id="addForm" action="/gamelist" method="post">
+                <div><label for="gameName">Name of your game:</label><br><input type="text" required></div>
+                <div><label for="gameDate">Date:</label><br><input type="date" id="today" required></div>
+                <div><label for="teamNo">Number of teams:</label><br><input type="number" min="2" value="2" required>
                 </div>
-                <div class="event-description">
-                    <p>
-                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes
-                        by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-                </div>
-            </div>
-            <div class="event-container">
-                <div class="event-name">
-                    <h2>
-                        Event Name
-                    </h2>
-                </div>
-                <div class="event-description">
-                    <p>
-                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes
-                        by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-            </div>
-            <div class="event-container">
-                <div class="event-name">
-                    <h2>
-                        Event Name
-                    </h2>
-                </div>
-                <div class="event-description">
-                    <p>
-                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes
-                        by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-            </div>
-            <div class="event-container">
-                <div class="event-name">
-                    <h2>
-                        Event Name
-                    </h2>
-                </div>
-                <div class="event-description">
-                    <p>
-                        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a
-                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes
-                        by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-
-                </div>
-            </div>
-        </section>
-
+                <div><label for="partNo">Number of participants per team:</label><br><input type="number" min="2" value="2" required></div>
+                <div><input type="submit" id="addGame" value="Add a new game"></div>
+            </form>
+        </div>
+        <div class="container" id="edit">
+            <h4>Edit your game</h4>
+            <p>Do you want to edit your game? Enter the information you wish to change.</p>
+            <form id="editForm" action="/gamelist" method="post">
+                <div><label for="gameName">Name of your game:</label><br><input type="text" id="editGameName"></div>
+                <div><label for="gameDate">Date:</label><br><input type="date" id="editGameDate"></div>
+                <div><label for="teamNo">Number of teams:</label><br><input type="number" min="2" value="2" id="editGameTeam"></div>
+                <div><label for="partNo">Number of participants per team:</label><br><input type="number" min="2" value="2" id="editGamePart"></div>
+                <div><input type="submit" id="change" value="Change the information"></div>
+            </form>
+        </div>
     </main>
-
-
+    <script src="js/event.js"></script>
 </body>
 
 </html>
