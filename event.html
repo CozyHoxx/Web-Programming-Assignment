@@ -88,6 +88,7 @@
             <form id="addForm" action="/gamelist" method="post">
                 <div><label for="gameName">Name of your game:</label><br><input type="text" required></div>
                 <div><label for="gameDate">Date:</label><br><input type="date" id="today" required></div>
+                <div><label for="gameTime">Time:</label><br><input type="time" required></div>
                 <div><label for="teamNo">Number of teams:</label><br><input type="number" min="2" value="2" required>
                 </div>
                 <div><label for="partNo">Number of participants per team:</label><br><input type="number" min="2" value="2" required></div>
@@ -100,6 +101,7 @@
             <form id="editForm" action="/gamelist" method="post">
                 <div><label for="gameName">Name of your game:</label><br><input type="text" id="editGameName"></div>
                 <div><label for="gameDate">Date:</label><br><input type="date" id="editGameDate"></div>
+                <div><label for="gameTime">Time:</label><br><input type="time" id="editGameTime"></div>
                 <div><label for="teamNo">Number of teams:</label><br><input type="number" min="2" value="2" id="editGameTeam"></div>
                 <div><label for="partNo">Number of participants per team:</label><br><input type="number" min="2" value="2" id="editGamePart"></div>
                 <div><input type="submit" id="change" value="Change the information"></div>
