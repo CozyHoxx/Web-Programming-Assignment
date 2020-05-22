@@ -1,0 +1,16 @@
+.carousel {
+    margin-top: 62px;
+}
+
+.specialDropdown {
+    width: 70%;
+}
+
+@media(min-width:768px) {
+    .navbar {
+        background: transparent !important;
+    }
+    .carousel {
+        margin-top: 0px;
+    }
+}

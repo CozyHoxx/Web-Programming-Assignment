@@ -1,0 +1,42 @@
+:root {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.aw-hr-long {
+    margin: 0.5rem 0;
+    height: 0.10rem;
+    background-color: #dc3545;
+}
+
+#headingCover {
+    margin-top: 60px;
+    height: 30rem;
+    background: url("../img/4.jouwen-wang-UChknR2z5EM-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aw-vertical-align {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 30rem;
+}
+
+.aw-border {
+    border-top: 0.18rem white solid;
+    border-bottom: 0.18rem white solid;
+    padding: 3rem;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.card {
+    min-width: 5rem;
+}
+
+@media(min-width:768px) {
+    li .active {
+        border: 1px solid white;
+        border-radius: 9px;
+    }
+}
